@@ -62,7 +62,7 @@ document.querySelector('#access-form button').addEventListener('click', function
 
         // Create a new h1 element with a greeting message
         const greeting = document.createElement('h1');
-        greeting.textContent = `Halo ${accessCode.charAt(0).toUpperCase() + accessCode.slice(1)}`;
+        greeting.textContent = `Halo ${accessCode.charAt(0).toUpperCase() + accessCode.slice(1)} Imute`;
 
         // Insert the greeting before the question element
         const questionElement = document.querySelector('.question');
