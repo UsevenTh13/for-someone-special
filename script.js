@@ -55,7 +55,7 @@ document.querySelector('#access-form button').addEventListener('click', function
     const accessForm = document.getElementById('access-form');
 
     // Check if the input matches any of the specified names
-    const validNames = ['nadine', 'nadine mutiara', 'nadine mutiara theresia'];
+    const validNames = ['garden','gardenia'];
     if (validNames.includes(accessCode)) {
         wrapper.style.display = 'block';
         accessForm.style.display = 'none';
